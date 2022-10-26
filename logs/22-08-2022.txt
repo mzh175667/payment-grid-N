@@ -1,0 +1,81 @@
+--------------------------------------------------------------------------
+22-08-2022 2:10:38 PM
+Error getting user record : error Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:10:38 PM
+Error getting user record : error Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:10:38 PM
+Error getting user record : error Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:10:39 PM
+Customer get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:10:39 PM
+Payments get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:10:39 PM
+Invoice get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:10:58 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:10:58 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:11:00 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:11:01 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:11:20 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:11:21 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:11:24 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:11:24 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:16:44 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:16:45 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:16:48 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:16:49 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:17:02 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ --------------------------------------------------------------------------
+22-08-2022 2:17:04 PM
+Permission get error : Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MariaDB client 
+
+ 

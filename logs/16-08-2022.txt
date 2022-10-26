@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------
+16-08-2022 12:44:15 AM
+Permission get error : Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [uuid] query: select * from `permissions` where `uuid` = ? 
+
+ --------------------------------------------------------------------------
+16-08-2022 8:25:28 PM
+RolePermission create error : Error: insert into `role_permission` (`created_at`, `permission_id`, `role_id`, `updated_at`, `uuid`) values ('2022-08-16 11:25:28', 2, 1, '2022-08-16 11:25:28', '0daecc55-4237-4895-b45e-bad90e483a3d') - ER_BAD_FIELD_ERROR: Unknown column 'uuid' in 'field list' 
+
+ --------------------------------------------------------------------------
+16-08-2022 8:29:50 PM
+RolePermission create error : Error: insert into `role_permission` (`created_at`, `permission_id`, `role_id`, `updated_at`) values ('2022-08-16 11:29:50', 2, 3, '2022-08-16 11:29:50') - ER_NO_DEFAULT_FOR_FIELD: Field 'previliges' doesn't have a default value 
+
+ --------------------------------------------------------------------------
+16-08-2022 8:46:47 PM
+RolePermission create error : Error: insert into `role_permission` (`created_at`, `permission_id`, `previliges`, `role_id`, `updated_at`) values ('2022-08-16 11:46:47', 2, 'Create', 'Delete', 5, '2022-08-16 11:46:47') - ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1 
+
+ --------------------------------------------------------------------------
+16-08-2022 10:35:59 PM
+Role delete error : Error: delete from `roles` where `uuid` = '4173f7f7-0a9c-4a7a-ba80-afd7758ce6b9' - ER_ROW_IS_REFERENCED_2: Cannot delete or update a parent row: a foreign key constraint fails (`paymentdb`.`role_permission`, CONSTRAINT `role_id` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) 
+
+ --------------------------------------------------------------------------
+16-08-2022 11:28:46 PM
+RolePermission create error : SyntaxError: Unexpected token o in JSON at position 1 
+
+ 

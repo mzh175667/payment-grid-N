@@ -1,0 +1,57 @@
+--------------------------------------------------------------------------
+06-04-2022 8:15:17 AM
+Error getting user record : error Error: connect ENETUNREACH 69.14.11.103:3306 - Local (0.0.0.0:55007) 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:15:18 AM
+Customer get error : Error: connect ENETUNREACH 69.14.11.103:3306 - Local (0.0.0.0:55016) 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:15:34 AM
+Error getting user record : error Error: connect ENETUNREACH 69.14.11.103:3306 - Local (0.0.0.0:55090) 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:15:34 AM
+Payment Detail  get error : Error: connect ENETUNREACH 69.14.11.103:3306 - Local (0.0.0.0:55091) 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:16:40 AM
+Error getting user record : error Error: select * from `users` where `uuid` = 'a6123b18-8189-4204-a6eb-3ab7c027c800' - read ETIMEDOUT 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:16:40 AM
+Payment Detail  get error : Error: connect ENETUNREACH 69.14.11.103:3306 - Local (0.0.0.0:55352) 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:16:52 AM
+Error getting user record : error Error: select * from `users` where `uuid` = 'a6123b18-8189-4204-a6eb-3ab7c027c800' - read ETIMEDOUT 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:16:52 AM
+Invoice track number count get error : Error: connect ENETUNREACH 69.14.11.103:3306 - Local (0.0.0.0:55401) 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:40:20 AM
+Error getting user record : error Error: select * from `users` where `uuid` = 'a6123b18-8189-4204-a6eb-3ab7c027c800' - read ECONNRESET 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:40:20 AM
+Error getting user record : error Error: select * from `users` where `uuid` = 'a6123b18-8189-4204-a6eb-3ab7c027c800' - read ECONNRESET 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:40:22 AM
+Invoice track number count get error : Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [user_id] query: select * from `invoice_number_track` where `user_id` = ? 
+
+ --------------------------------------------------------------------------
+06-04-2022 8:40:22 AM
+Payment Detail  get error : Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [user_id] query: select * from `payment_detail` where `user_id` = ? 
+
+ --------------------------------------------------------------------------
+06-04-2022 11:01:37 PM
+Invoice Payment method get error : TypeError: Cannot set property 'payment_detail' of undefined 
+
+ --------------------------------------------------------------------------
+06-04-2022 11:23:30 PM
+Invoice by UUid error : TypeError: Cannot read property 'transfer-encoding' of undefined 
+
+ 

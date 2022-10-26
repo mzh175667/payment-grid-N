@@ -1,0 +1,57 @@
+--------------------------------------------------------------------------
+17-08-2022 12:07:42 AM
+RolePermission create error : Error: insert into `role_permission` (`created_at`, `permission_id`, `previliges`, `role_id`, `updated_at`) values ('2022-08-16 15:07:41', 2, 'Read', 'Delete', 8, '2022-08-16 15:07:41') - ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1 
+
+ --------------------------------------------------------------------------
+17-08-2022 12:07:42 AM
+RolePermission create error : Error: insert into `role_permission` (`created_at`, `permission_id`, `previliges`, `role_id`, `updated_at`) values ('2022-08-16 15:07:41', 3, 'Write', 'Delete', 8, '2022-08-16 15:07:41') - ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1 
+
+ --------------------------------------------------------------------------
+17-08-2022 12:15:45 AM
+RolePermission create error : Error: insert into `role_permission` (`created_at`, `permission_id`, `previliges`, `role_id`, `updated_at`) values ('2022-08-16 15:15:45', 2, 'Read', 'Delete', 9, '2022-08-16 15:15:45') - ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1 
+
+ --------------------------------------------------------------------------
+17-08-2022 12:15:46 AM
+RolePermission create error : Error: insert into `role_permission` (`created_at`, `permission_id`, `previliges`, `role_id`, `updated_at`) values ('2022-08-16 15:15:45', 3, 'Write', 'Delete', 9, '2022-08-16 15:15:45') - ER_WRONG_VALUE_COUNT_ON_ROW: Column count doesn't match value count at row 1 
+
+ --------------------------------------------------------------------------
+17-08-2022 12:49:31 AM
+Role get error : Error: select `roles`.`id` as `role_id`, `roles`.`name` as `role_name`, `roles`.`description`, `role_permission`.`previliges` from `roles` inner join `role_permission` on `role_permission`.`role_id` = `roles`.`id` inner join `role_permission` on `role_permission`.`permission_id` = `permissions`.`id` - ER_NONUNIQ_TABLE: Not unique table/alias: 'role_permission' 
+
+ --------------------------------------------------------------------------
+17-08-2022 5:19:56 PM
+Role get error : Error: select `roles`.`id` as `role_id`, `permission`.`id` as `permission_id`, `roles`.`name` as `role_name`, `roles`.`description`, `role_permission`.`previliges`, `permissions`.`name` as `permission_name` from `roles` inner join `role_permission` on `role_permission`.`role_id` = `roles`.`id` inner join `permissions` on `permissions`.`id` = `role_permission`.`permission_id` - ER_BAD_FIELD_ERROR: Unknown column 'permission.id' in 'field list' 
+
+ --------------------------------------------------------------------------
+17-08-2022 5:23:18 PM
+Error getting user record : error Error: connect EHOSTUNREACH 70.62.23.133:3306 
+
+ --------------------------------------------------------------------------
+17-08-2022 5:23:18 PM
+Error getting user record : error Error: connect EHOSTUNREACH 70.62.23.133:3306 
+
+ --------------------------------------------------------------------------
+17-08-2022 5:23:19 PM
+Payments get error : Error: connect EHOSTUNREACH 70.62.23.133:3306 
+
+ --------------------------------------------------------------------------
+17-08-2022 5:23:19 PM
+Invoice get error : Error: connect EHOSTUNREACH 70.62.23.133:3306 
+
+ --------------------------------------------------------------------------
+17-08-2022 5:23:45 PM
+Error getting user record : error Error: select * from `users` where `uuid` = 'a68b2916-f329-4dee-af93-40748f439dda' - read ECONNRESET 
+
+ --------------------------------------------------------------------------
+17-08-2022 5:23:45 PM
+Customer get error : Error: connect EHOSTUNREACH 70.62.23.133:3306 
+
+ --------------------------------------------------------------------------
+17-08-2022 9:28:41 PM
+Role get error : Error: select `role_permission`.`id` as `id`, `roles`.`id` as `role_id`, `permissions`.`id` as `permission_id`, `roles`.`uuid` as `role_uuid`, `roles`.`name` as `role_name`, `roles`.`description`, `role_permission`.`previliges`, `permissions`.`name` as `permission_name`, `roles`.`core_permission`, `role_permission`.`created_at` from `roles` inner join `role_permission` on `role_permission`.`role_id` = `roles`.`id` inner join `permissions` on `permissions`.`id` = `role_permission`.`permission_id` - ER_BAD_FIELD_ERROR: Unknown column 'roles.core_permission' in 'field list' 
+
+ --------------------------------------------------------------------------
+17-08-2022 9:29:12 PM
+Role get error : Error: select `role_permission`.`id` as `id`, `roles`.`id` as `role_id`, `permissions`.`id` as `permission_id`, `roles`.`name` as `role_name`, `roles`.`description`, `role_permission`.`previliges`, `permissions`.`name` as `permission_name`, `roles`.`core_permission`, `role_permission`.`created_at` from `roles` inner join `role_permission` on `role_permission`.`role_id` = `roles`.`id` inner join `permissions` on `permissions`.`id` = `role_permission`.`permission_id` - ER_BAD_FIELD_ERROR: Unknown column 'roles.core_permission' in 'field list' 
+
+ 

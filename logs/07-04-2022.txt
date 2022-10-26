@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------
+07-04-2022 12:04:12 AM
+Invoice by UUid error : TypeError: Cannot read property 'transfer-encoding' of undefined 
+
+ --------------------------------------------------------------------------
+07-04-2022 1:40:29 AM
+Invoice create error : Error: insert into `invoices` (`created_at`, `customer_id`, `date`, `discount`, `due_date_from`, `due_date_to`, `due_in`, `files`, `invoice_number`, `note`, `payment_detail_id`, `product_details`, `sales_person`, `status`, `subtotal`, `tax`, `terms`, `total`, `user_id`, `uuid`) values ('2022-04-06 16:40:28', DEFAULT, '2022-04-06 16:40:19', 0, '2022-04-06 16:40:19', '2022-04-06 16:40:19', '5', '[{\"fieldname\":\"file\",\"originalname\":\"Test Application.pdf\",\"encoding\":\"7bit\",\"mimetype\":\"application/pdf\",\"destination\":\"public/invoice\",\"filename\":\"1649277625709-Test Application.pdf\",\"path\":\"public/invoice/1649277625709-Test Application.pdf\",\"size\":41332}]', '00050', 'It was a pleasure working with you.', 9, '{}', '', 'Draft', 0, 0, '', 0, 46, '5a773d50-7446-4d4b-838a-71b00fd9f533') - ER_BAD_FIELD_ERROR: Unknown column 'files' in 'field list' 
+
+ --------------------------------------------------------------------------
+07-04-2022 10:48:25 AM
+Error getting user record : error Error: select * from `users` where `uuid` = 'a6123b18-8189-4204-a6eb-3ab7c027c800' - read ECONNRESET 
+
+ --------------------------------------------------------------------------
+07-04-2022 10:48:25 AM
+Invoice track number count get error : Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [user_id] query: select * from `invoice_number_track` where `user_id` = ? 
+
+ 

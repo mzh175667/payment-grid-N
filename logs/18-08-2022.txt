@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------
+18-08-2022 1:29:51 PM
+Permission get error : Error: connect EHOSTUNREACH 70.62.23.133:3306 
+
+ --------------------------------------------------------------------------
+18-08-2022 1:29:59 PM
+Permission get error : Error: connect EHOSTUNREACH 70.62.23.133:3306 
+
+ --------------------------------------------------------------------------
+18-08-2022 1:57:46 PM
+Permission create error : Error: insert into `permissions` (`core_permission`, `created_at`, `name`, `updated_at`, `uuid`) values (DEFAULT, '2022-08-18 04:57:46', DEFAULT, '2022-08-18 04:57:46', 'a53ed889-792f-45c8-8d77-026a27eb4f28') - ER_NO_DEFAULT_FOR_FIELD: Field 'name' doesn't have a default value 
+
+ --------------------------------------------------------------------------
+18-08-2022 2:01:58 PM
+Permission create error : Error: insert into `permissions` (`core_permission`, `created_at`, `name`, `updated_at`, `uuid`) values (DEFAULT, '2022-08-18 05:01:58', DEFAULT, '2022-08-18 05:01:58', 'c31b1cff-beb1-432a-8bfe-4cbdc26a79e3') - ER_NO_DEFAULT_FOR_FIELD: Field 'name' doesn't have a default value 
+
+ --------------------------------------------------------------------------
+18-08-2022 2:02:50 PM
+Permission create error : Error: insert into `permissions` (`core_permission`, `created_at`, `name`, `updated_at`, `uuid`) values (DEFAULT, '2022-08-18 05:02:50', DEFAULT, '2022-08-18 05:02:50', '9df7e05e-0806-4676-a02e-b3a7253d1b64') - ER_NO_DEFAULT_FOR_FIELD: Field 'name' doesn't have a default value 
+
+ 

@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------
+04-04-2022 9:58:09 AM
+Setup Terminal get error :  TypeError: Terminals.getSetupTerminal is not a function 
+
+ --------------------------------------------------------------------------
+04-04-2022 9:58:18 AM
+Setup Terminal get error :  TypeError: Terminals.getSetupTerminal is not a function 
+
+ 

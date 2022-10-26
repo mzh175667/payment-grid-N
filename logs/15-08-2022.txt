@@ -1,0 +1,5 @@
+--------------------------------------------------------------------------
+15-08-2022 11:21:36 PM
+Customer create error : Error: insert into `permissions` (`core_permission`, `created_at`, `name`, `updated_at`, `uuid`) values (true, '2022-08-15 14:21:36', 'Management', '2022-08-15 14:21:36', '9ca7d4c7-98c2-4b6b-9237-47353a0db8c9') - ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value 
+
+ 

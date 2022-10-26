@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------
+10-05-2022 2:09:22 AM
+Error getting user record : error Error: select * from `users` where `uuid` = '65cf0ef8-aa60-41ed-999b-0d872b91a865' - read ECONNRESET 
+
+ --------------------------------------------------------------------------
+10-05-2022 2:09:22 AM
+Invoice get error : Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [user_id] query: select * from `invoices` where `user_id` = ? 
+
+ --------------------------------------------------------------------------
+10-05-2022 3:06:26 AM
+Error getting user record : error Error: select * from `users` where `uuid` = '65cf0ef8-aa60-41ed-999b-0d872b91a865' - read ECONNRESET 
+
+ --------------------------------------------------------------------------
+10-05-2022 3:06:26 AM
+Invoice get error : Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [user_id] query: select * from `invoices` where `user_id` = ? 
+
+ 
